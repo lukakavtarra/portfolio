@@ -38,7 +38,7 @@ const Contact = () => {
             <article className='contact__option'>
               <BsTelephone className='contact__option-icon'/>
               <h4>Telephone</h4>
-              <h5>Call me</h5>
+              <h5>+995 555 702 988</h5>
               <a href="tel:+995555702988" target="_blank">Make a call</a>
             </article>
         </div>
