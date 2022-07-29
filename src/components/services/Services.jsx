@@ -61,7 +61,7 @@ const Services = () => {
           </li>
           <li>
           <BiCheck  className='service__list-icon'/>
-          <p>Proficiency with git;</p>
+          <p>Proficiency with git</p>
           </li>
           <li>
           <BiCheck  className='service__list-icon'/>
