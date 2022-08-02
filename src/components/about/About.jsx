@@ -38,8 +38,8 @@ const About = () => {
 
           <p>
             Hello, welcome to my portfolio webpage. I am Luka Kavtaradze,
-            I just started to learn web developing and already learn a lot of things.
-            If you want to help me to develop my skills contact me.
+            I just started to learn web developing and already have learn a lot of things.
+            If you want me to help you contact me.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
