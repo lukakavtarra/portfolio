@@ -88,6 +88,10 @@ const Services = () => {
           <BiCheck  className='service__list-icon'/>
           <p>The ability to learn quickly and get to know new tools</p>
           </li>
+          <li>
+          <BiCheck  className='service__list-icon'/>
+          <p>Knowledge of Postman API testing</p>
+          </li>
     
         </ul>
       </article>

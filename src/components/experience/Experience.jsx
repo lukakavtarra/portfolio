@@ -17,14 +17,14 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
               <h4>HTML</h4>
-              <small className='text-light'>Intermediate</small>
+              <small className='text-light'>Excellent</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
               <h4>CSS</h4>
-              <small className='text-light'>Intermediate</small>
+              <small className='text-light'>Excellent</small>
               </div>
             </article>
             <article className='experience__details'>
@@ -44,7 +44,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-              <h4>C++</h4>
+              <h4>Sass</h4>
               <small className='text-light'>Entry-level</small>
               </div>
             </article>
@@ -71,8 +71,35 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
+              <h4>C++</h4>
+              <small className='text-light'>Entry-level</small>
+              </div>
+            </article>
+        </div>
+      </div>
+      {/* Data Bases */}
+      <div className="experience__backend">
+          <h3>Databases</h3>
+          <div className="experience__content">
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
               <h4>Postgres</h4>
               <small className='text-light'>Entry-level</small>
+              </div>
+            </article>
+
+        </div>
+      </div>
+      {/* Web Services */}
+      <div className="experience__backend">
+          <h3>Web services</h3>
+          <div className="experience__content">
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+              <h4>Postman</h4>
+              <small className='text-light'>Mid-level</small>
               </div>
             </article>
         </div>
