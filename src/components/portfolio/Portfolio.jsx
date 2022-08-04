@@ -25,7 +25,7 @@ const data = [
   {
     id: 3,
     image: MONSTERS,
-    title: 'React App / Monsters Rolodex',
+    title: 'React App / Monsters Rolodex Application',
     github: 'https://github.com/lukakavtarra/Article-preview-component-challenge-hub',
     demo: 'https://lukakavtarra.github.io/Article-preview-component-challenge-hub/'
   },
