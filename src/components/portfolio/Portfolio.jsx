@@ -3,7 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import MONSTERS from '../../assets/monstersrolodex.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
@@ -24,17 +24,17 @@ const data = [
   },
   {
     id: 3,
-    image: IMG3,
-    title: 'Test Project / Article-preview-component-challenge-hub',
+    image: MONSTERS,
+    title: 'React App / Monsters Rolodex',
     github: 'https://github.com/lukakavtarra/Article-preview-component-challenge-hub',
     demo: 'https://lukakavtarra.github.io/Article-preview-component-challenge-hub/'
   },
   {
     id: 4,
-    image: IMG4,
-    title: 'Huddle landing page with a single introductory section',
-    github: 'https://github.com/lukakavtarra/Huddle-landing-page-with-a-single-introductory-section-challenge-hub',
-    demo: 'https://lukakavtarra.github.io/Huddle-landing-page-with-a-single-introductory-section-challenge-hub/'
+    image: IMG3,
+    title: 'Test Project / Article-preview-component-challenge-hub',
+    github: 'https://github.com/lukakavtarra/monsters-rolodex',
+    demo: 'https://lukakavtarra.github.io/monsters-rolodex/'
   },
   {
     id: 5,
