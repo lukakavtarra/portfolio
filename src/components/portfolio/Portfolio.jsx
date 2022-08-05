@@ -26,15 +26,15 @@ const data = [
     id: 3,
     image: MONSTERS,
     title: 'React App / Monsters Rolodex Application',
-    github: 'https://github.com/lukakavtarra/Article-preview-component-challenge-hub',
-    demo: 'https://lukakavtarra.github.io/Article-preview-component-challenge-hub/'
+    github: 'https://github.com/lukakavtarra/monsters-rolodex',
+    demo: 'https://lukakavtarra.github.io/monsters-rolodex/'
   },
   {
     id: 4,
     image: IMG3,
     title: 'Test Project / Article-preview-component-challenge-hub',
-    github: 'https://github.com/lukakavtarra/monsters-rolodex',
-    demo: 'https://lukakavtarra.github.io/monsters-rolodex/'
+    github: 'https://github.com/lukakavtarra/Article-preview-component-challenge-hub',
+    demo: 'https://lukakavtarra.github.io/Article-preview-component-challenge-hub/'
   },
   {
     id: 5,

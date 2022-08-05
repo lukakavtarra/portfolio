@@ -1,6 +1,7 @@
 import React from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
+import {FaCertificate} from 'react-icons/fa'
 
 const Experience = () => {
   return (
@@ -71,6 +72,13 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
+              <h4>Express.js</h4>
+              <small className='text-light'>Entry-level</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
               <h4>C++</h4>
               <small className='text-light'>Entry-level</small>
               </div>
@@ -105,6 +113,35 @@ const Experience = () => {
         </div>
       </div>
       </div>
+      {/* Certificates */}
+      <h2 className='certificates__header'>My Certificates</h2>
+      <div className="container certificate__container">
+          <div >
+            <article className='experience__details'>
+              <FaCertificate className="experience__details-icon" />
+              <div>
+              <h4><a href="https://www.freecodecamp.org/certification/Lukakavtaradze/javascript-algorithms-and-data-structures" target='_blank'>Freecodecamp Javascript Algorithms & Data Structures</a></h4>
+              <small className='text-light'>Skills required: JS Algorithms / Data Structures<br />Aug 2022</small>
+              <small></small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <FaCertificate className="experience__details-icon" />
+              <div>
+              <h4><a href="https://www.freecodecamp.org/certification/Lukakavtaradze/responsive-web-design" target='_blank'>Freecodecamp Responsive Web Design</a></h4>
+              <small className='text-light'>Skills required: HTML5 / CSS<br />Jan 2022</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <FaCertificate className="experience__details-icon" />
+              <div>
+              <h4><a href="https://certification.w3schools.com/w3certified.asp?id=12896962" target='_blank'>W3Schools Programming Programming in HTML5 with JavaScript and CSS3</a></h4>
+              <small className='text-light'>Skills required: HTML5 / CSS / JS<br /> Mar 2021</small>
+              </div>
+            </article>
+        </div>
+      </div>
+
     </section>
   )
 }

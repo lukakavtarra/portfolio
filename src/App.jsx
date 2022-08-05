@@ -11,7 +11,7 @@ import Testimonials from './components/testimonials/Testimonials'
 
 const app = () => {
   return (
-    <>
+    <React.StrictMode>
       <Header />
       <Nav />
       <About />
@@ -20,8 +20,7 @@ const app = () => {
       <Portfolio />
       <Contact />
       <Footer />
-
-    </>
+    </React.StrictMode>
   )
 }
 

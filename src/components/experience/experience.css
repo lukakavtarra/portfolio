@@ -41,6 +41,29 @@
     color: var(--color-primary);
 }
 
+
+.certificate__container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.certificate__container > div {
+    background-color: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.certificate__container > div:hover {
+    background: transparent;
+    border-color: var(--color-bg-variant);
+    cursor: default;
+}
+
+.certificates__header {
+    margin-top: 5rem;
+}
+
 /* ============= MEDIA QUERIES (FOR MEDIUM DEVICES) */
 
 @media screen and (max-width:1024px) {
