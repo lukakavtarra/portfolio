@@ -19,6 +19,9 @@
     border-radius: 1.2rem;
     text-align: center;
     transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .contact__option:hover {
@@ -74,5 +77,8 @@ input, textarea {
     .container.contact__container {
         grid-template-columns: 1fr;
         width: var(--container-width-sm);
+    }
+    .contact__option {
+        width: 79%;
     }
 }
