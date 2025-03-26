@@ -10,11 +10,12 @@
     flex-direction: row;
     justify-content: center;
     gap: 1.2rem;
+    flex-wrap: wrap;
 }
 
 .contact__option {
     background: var(--color-bg-variant);
-    padding: 4.2rem 6.2rem;
+    padding: 4.2rem 6%;
     border-radius: 1.2rem;
     text-align: center;
     transition: var(--transition);
