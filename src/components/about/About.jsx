@@ -4,6 +4,8 @@ import ME from '../../assets/me-about.jpeg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import { IoDocument } from "react-icons/io5";
+
 
 const About = () => {
   return (
@@ -22,12 +24,12 @@ const About = () => {
             <article className="about__card">
               <FaAward  className='about__icon'/>
               <h5>Experience</h5>
-              <small>Up To 1 Year Training</small>
+              <small>Up To 3 Year Training</small>
             </article>
             <article className="about__card">
-              <FiUsers  className='about__icon'/>
-              <h5>Clients</h5>
-              <small>0 Real Clients For Now</small>
+              <IoDocument  className='about__icon'/>
+              <h5>Certificates</h5>
+              <small>4+ Certificates</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary  className='about__icon'/>

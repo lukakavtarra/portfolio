@@ -1,20 +1,21 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import MONSTERS from "../../assets/monstersrolodex.png";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
-import countriesList from "../../assets/countrieslist.png";
-
+import IMG1 from "../../assets/img/portfolio1.jpg";
+import IMG2 from "../../assets/img/portfolio2.jpg";
+import IMG3 from "../../assets/img/portfolio3.jpg";
+import MONSTERS from "../../assets/img/monstersrolodex.png";
+import IMG5 from "../../assets/img/portfolio5.png";
+import IMG6 from "../../assets/img/portfolio6.jpg";
+import countriesList from "../../assets/img/countrieslist.png";
+import Possolution from "../../assets/img/possolution.png";
+import Aiparts from "../../assets/img/Aiparts.png";
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: "Redberry Project / Redberry-Knight-Cup",
-    github: "https://github.com/lukakavtarra/Redberry-Knight-Cup",
-    demo: "https://main--luxury-donut-2d9a0a.netlify.app/",
+    image: Possolution,
+    title: "Possolution / Software for restaurants",
+    github: "#",
+    demo: "https://possolutions.ge/",
   },
   {
     id: 2,
@@ -50,6 +51,17 @@ const data = [
     github: "https://github.com/lukakavtarra/FAQ-accordion-card-challenge-hub",
     demo: "https://lukakavtarra.github.io/FAQ-accordion-card-challenge-hub/",
   },
+  {    id: 7,
+    image: IMG1,
+    title: "Redberry Project / Redberry-Knight-Cup",
+    github: "https://github.com/lukakavtarra/Redberry-Knight-Cup",
+    demo: "https://main--luxury-donut-2d9a0a.netlify.app/",
+  },
+    {    id: 8,
+      image: Aiparts,
+      title: "Aiparts / Wordpress Project",
+      github: "#",
+      demo: "https://github.com/lukakavtarra/Redberry-Knight-Cup"}
 ];
 
 const Portfolio = () => {
@@ -67,12 +79,14 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn" target="_blank">
+                {github !== "#" && (
+                  <a href={github} className="btn" target="_blank">
                   Github
-                </a>
+                </a>    
+                )}
                 <a href={demo} className="btn btn-primary" target="_blank">
-                  Live-demo
-                </a>
+                Live
+              </a>
               </div>
             </article>
           );
